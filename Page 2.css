@@ -1,0 +1,194 @@
+@media (min-width:720px)
+{
+body{
+    margin-left:5px;
+    background:url("loginp1.jpg");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+}
+h2
+{
+    margin-top:-40px;
+    margin-left:550px;
+    font-size:30;
+}
+input.name
+{
+    margin-left:790;
+    margin-top:170px;
+    height:30;
+    width:230;
+    border-color:rgb(130,40,156);
+    border-radius:10px;
+}
+input.pass
+{
+    margin-left:790;
+    margin-top:37px;
+    height:30;
+    width:230;
+    border-color:rgb(130,40,156);
+    border-radius:10px;
+}
+input.reg{
+    height:30;
+    width:130;
+    padding-left:10px;
+    padding-top:3px;
+    background-color:rgb(107,58,209);
+    border-radius:5px;
+    margin-left:840;
+    margin-top:60; 
+    color:white;
+}
+
+
+
+button.google
+{
+    margin-left:-680px;
+   position:absolute;
+   top:270px;
+   /* left:-20px; */
+   height:30px;
+   width:190px;
+}
+h2{
+   position:absolute;
+   top:190px;
+   left:210px;
+}
+button.face
+{
+    margin-left:-680px;
+   position:absolute;
+   top:320px;
+   /* left:-20px; */
+   height:30px;
+   width:190px;
+}
+button.help
+{
+    background-color:rgb(107,58,209);
+    position:absolute;
+    top:70px;
+    left:1050px;
+    height:25px;
+    width:70px;
+    color:white;
+}
+button.home
+{
+    background-color:rgb(107,58,209);
+    position:absolute;
+    top:72px;
+    left:950px;
+    height:25px;
+    width:70px;
+    color:white;
+}
+#vec
+{
+  position:absolute;
+  top:50px;
+  left:670px;  
+}
+}
+@media (max-width:720px)
+{
+    body{
+        margin-left:5px;
+        background:url("login5.jpg");
+        background-repeat:no-repeat;
+        background-size:100% 100%;
+    }
+    h2
+    {
+        margin-top:-40px;
+        margin-left:550px;
+        font-size:30;
+    }
+    input.name
+    {
+        margin-left:220;
+        margin-top:200px;
+        height:30;
+        width:230;
+        border-color:rgb(130,40,156);
+        border-radius:10px;
+    }
+    input.pass
+    {
+        margin-left:220;
+        margin-top:37px;
+        height:30;
+        width:230;
+        border-color:rgb(130,40,156);
+        border-radius:10px;
+    }
+    input.reg{
+        height:30;
+        width:130;
+        padding-left:10px;
+        padding-top:3px;
+        background-color:rgb(107,58,209);
+        border-radius:5px;
+       position:absolute;
+       top:300px;
+       left:280px;
+        margin-top:60; 
+        color:white;
+    }
+    
+    
+    
+    button.google
+    {
+        margin-left:-90px;
+       position:absolute;
+       top:419px;
+       /* left:-20px; */
+       height:30px;
+       width:190px;
+    }
+    h2{
+       position:absolute;
+       top:240px;
+       left:-410px;
+    }
+    button.face
+    {
+        margin-left:-290px;
+       position:absolute;
+       top:420px;
+       /* left:-20px; */
+       height:30px;
+       width:190px;
+    }
+    button.help
+    {
+        background-color:rgb(107,58,209);
+        position:absolute;
+        top:92px;
+        left:450px;
+        height:25px;
+        width:70px;
+        color:white;
+    }
+    button.home
+    {
+        background-color:rgb(107,58,209);
+        position:absolute;
+        top:92px;
+        left:350px;
+        height:25px;
+        width:70px;
+        color:white;
+    }
+    #vec
+    {
+      position:absolute;
+      top:100px;
+      left:160px;  
+    }
+}

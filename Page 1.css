@@ -1,0 +1,154 @@
+@media (min-width:720px)
+{
+body{
+    background:url("back1.jpg");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+}
+h1
+{
+    color:white;
+    text-transform:upperc;
+    font-family: 'Lobster Two', cursive;
+    margin-top:190px;
+    margin-left:180;
+    font-size:35;
+}
+
+a{  
+    margin-top:-9px;
+    display:block;
+    color:white;
+    font-size:27;
+   margin-left:11px;
+    text-decoration:none;
+    margin-left:220;
+    text-color:white;
+    font-family: 'Pacifico', cursive;
+    padding-bottom:3px;
+    height:35px;
+    padding-bottom:5px;
+    width:190px;
+
+    border:2px white solid;
+    border-radius:5px;
+}
+h3.home
+{
+color:white;
+margin-top:-290;
+margin-left:650;
+}
+h3.team
+{
+color:white;
+margin-top:-40;
+margin-left:730;
+}
+h3.about
+{
+    color:white;
+    margin-top:-40;
+    margin-left:830;
+}
+h3.help
+{
+    color:white;
+    margin-top:-40;
+    margin-left:930;
+}
+h3.login
+{
+    color:white;
+    margin-top:-40;
+    margin-left:1010;
+}
+#fd1e300e-6133-4b79-9025-3394cccdd89f
+{
+    height:100;
+    width:100px;
+    margin-top:-50;
+    margin-left:200;
+}
+a:hover{
+    background-color:rgb(206,55,202);
+    
+}
+}
+@media (max-width:720px)
+{
+    body{
+        background:url("back1.jpg");
+        background-repeat:no-repeat;
+        background-size:100% 100%;
+    }
+    h1
+    {
+        color:white;
+        text-transform:upperc;
+        font-family: 'Lobster Two', cursive;
+        margin-top:190px;
+        margin-left:80;
+        font-size:35;
+    }
+    
+    a{  
+        margin-top:-9px;
+        display:block;
+        color:white;
+        font-size:27;
+       margin-left:11px;
+        text-decoration:none;
+        margin-left:120;
+        text-color:white;
+        font-family: 'Pacifico', cursive;
+        padding-bottom:3px;
+        height:35px;
+        padding-bottom:5px;
+        width:190px;
+    
+        border:2px white solid;
+        border-radius:5px;
+    }
+    h3.home
+    {
+    color:white;
+    margin-top:-290;
+    margin-left:650;
+    }
+    h3.team
+    {
+    color:white;
+    margin-top:-40;
+    margin-left:730;
+    }
+    h3.about
+    {
+        color:white;
+        margin-top:-40;
+        margin-left:830;
+    }
+    h3.help
+    {
+        color:white;
+        margin-top:-40;
+        margin-left:930;
+    }
+    h3.login
+    {
+        color:white;
+        margin-top:-40;
+        margin-left:1010;
+    }
+    #fd1e300e-6133-4b79-9025-3394cccdd89f
+    {
+        height:100;
+        width:100px;
+        margin-top:-70;
+        margin-left:90;
+    }
+    a:hover{
+        background-color:rgb(206,55,202);
+        
+    }   
+}

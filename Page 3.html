@@ -1,0 +1,112 @@
+<html>
+    <head>
+        <title>dheeraj</title>
+        <script type="text/javascript" src="Page 3.js">
+    
+        </script>
+                <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+                
+        <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="Page 3.css">
+    </head>
+    <body> 
+        <h1 class="gm">TAPPING GAME</h1>
+        <h2 class="head">score</h2>
+        <h2 id="op">0.000</h2>
+        <!-- <div class="btns" id="btns">
+            <p class="no">
+            <p class="no1"> -->
+        <!-- <marquee class="no1" scrollamount="5" direction="right" > -->
+        <div class="n01">
+        <button id="1" class="btn" onclick="btn(this.id)" onmousedown="sound.play()"></button>
+        <button id="2" class="btn" onclick="btn(this.id)" onmousedown="sound.play()"></button>
+        <button id="3" class="btn" onclick="btn(this.id)" onmousedown="sound.play()"></button>
+        <button id="4" class="btn" onclick="btn(this.id)" onmousedown="sound.play()"></button>
+        <button id="5" class="btn" onclick="btn(this.id)" onmousedown="sound.play()"></button><br>   
+        </div>
+        <!-- </marquee> -->
+        <!-- <marquee class="no2" scrollamount="5"> -->
+        <div class="no2">
+        <button id="6" class="btn" onclick="btn(this.id)" onmousedown="sound.play()"></button>
+        <button id="7" class="btn" onclick="btn(this.id)" onmousedown="sound.play()"></button>
+        <button id="8" class="btn" onclick="btn(this.id)" onmousedown="sound.play()"></button>
+        <button id="9" class="btn" onclick="btn(this.id)" onmousedown="sound.play()"></button>
+        <button id="10" class="btn" onclick="btn(this.id)" onmousedown="sound.play()"></button><br>
+        </div>
+        <!-- </marquee> -->
+        <!-- <marquee class="no3" scrollamount="5" direction=right> -->
+        <div class="no3">
+        <button id="11" class="btn" onclick="btn(this.id)" onmousedown="sound.play()"></button>
+        <button id="12" class="btn" onclick="btn(this.id)" onmousedown="sound.play()"></button>
+        <button id="13" class="btn" onclick="btn(this.id)" onmousedown="sound.play()"></button>
+        <button id="14" class="btn" onclick="btn(this.id)" onmousedown="sound.play()"></button>
+        <button id="15" class="btn" onclick="btn(this.id)" onmousedown="sound.play()"></button><br>
+        </div>
+        <!-- </marquee> -->
+        <!-- <marquee class="no4" scrollamount="5"> -->
+        <div class="no4">
+        <button id="16" class="btn" onclick="btn(this.id)" onmousedown="sound.play()"></button>
+        <button id="17" class="btn" onclick="btn(this.id)" onmousedown="sound.play()"></button>
+        <button id="18" class="btn" onclick="btn(this.id)" onmousedown="sound.play()"></button>
+        <button id="19" class="btn" onclick="btn(this.id)" onmousedown="sound.play()"></button>
+        <button id="20" class="btn" onclick="btn(this.id)" onmousedown="sound.play()"></button><br>
+        </div>
+        <!-- </marquee> -->
+        <!-- <marquee class="no5" direction=right scrollamount="5"> -->
+        <div class="no5">
+        <button id="21" class="btn" onclick="btn(this.id)" onmousedown="sound.play()"></button>
+        <button id="22" class="btn" onclick="btn(this.id)" onmousedown="sound.play()"></button>
+        <button id="23" class="btn" onclick="btn(this.id)" onmousedown="sound.play()"></button>
+        <button id="24" class="btn" onclick="btn(this.id)" onmousedown="sound.play()"></button>
+        <button id="25" class="btn" onclick="btn(this.id)" onmousedown="sound.play()"></button><br>
+        </div>
+        <!-- </marquee> -->
+        <div >
+        <button onclick="change()"  id="sub" class="bnt">Start</button>
+        </div>
+        <h3 id="scoreh">SCORE BOARD&emsp;&emsp;&emsp;</h3>
+        <p id="escore">
+            <h3 id="escoreb">EASY&emsp;&emsp;&emsp;</h3>
+            <h3 id="escore1">undefined</h3>
+            <h3 id="escore2">undefined</h3>
+            <h3 id="escore3">undefined</h3>
+            <h3 id="escore4">undefined</h3>
+            <h3 id="escore5">undefined</h3>
+        </p>
+        <p id="mscore">
+            <h3 id="mscoreb">MEDIUM&emsp;&emsp;&emsp;</h3>
+            <h3 id="mscore1">undefined</h3>
+            <h3 id="mscore2">undefined</h3>
+            <h3 id="mscore3">undefined</h3>
+            <h3 id="mscore4">undefined</h3>
+            <h3 id="mscore5">undefined</h3>
+        </p>
+        <p id="hscore">
+            <h3 id="hscoreb">HARD&emsp;&emsp;&emsp;</h3>
+            <h3 id="hscore1">undefined</h3>
+            <h3 id="hscore2">undefined</h3>
+            <h3 id="hscore3">undefined</h3>
+            <h3 id="hscore4">undefined</h3>
+            <h3 id="hscore5">undefined</h3>
+        </p>
+        <div class="level" id="level">
+            <button onclick="change1()" id="elevel">Easy</button>
+            <button onclick="change2()" id="mlevel">Medium</button>
+            <button onclick="change3()" id="hlevel">Hard</button>
+        </div>
+       
+        <div class="table"></div>
+        
+        <div class="ins"><p class="inst">
+            INSTRUCTION<br>
+        </p></div>
+        <div class="cl">
+            1 .Numbers are randomly arranged in tiles.<br>
+        </div>
+            <div class="cl2">2 .Tap on the numbers in increasing order.<br></div>
+           <div class="cl3"> 3 .Score will be given based on time.<br> 
+           </div>
+           <div class="cl4">4. Do not touch tiles in decreasing order.</div>
+           <div class="cl5">5. Top 5 scores are displayed in score box.</div>
+        </body>
+</html>
